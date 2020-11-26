@@ -1,4 +1,4 @@
-# check R package  
+# Daily package downloads from the RStudio CRAN mirror 
 ```{r}
 library(cranlogs)
 aa <- cran_downloads(packages = c("QCSIS"), from = "2015-12-02", to = "2020-11-26")
